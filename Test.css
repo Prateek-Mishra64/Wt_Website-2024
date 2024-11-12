@@ -66,6 +66,7 @@ header .get-started:hover {
     padding: 80px 5%;
     color: #fff;
     flex-wrap: wrap;
+    border-color: #6C3483;
 }
 #main_2 {
     display: flex;
