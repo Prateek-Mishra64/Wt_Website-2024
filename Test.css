@@ -6,59 +6,55 @@
 }
 
 .body {
-    background: linear-gradient(135deg, #f5d798, #6C3483, #edf854, #d790fa, #39c0e2);
+    background: linear-gradient(110deg, #C6E7FF  , #D4F6FF , #FBFBFB , #FFDDAE);
     color: #fff;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 5%;
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
     transition: top 0.3s;
-    width: 100%;
-}
-
-header nav ul {
+  }
+  
+  .nav-list {
+    list-style-type: none;
     display: flex;
-    list-style: none;
-}
-
-header nav ul li {
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-header nav ul li a:hover {
-    color: #ff7360;
-}
-.hehe {
-     background-color: #e55a40;
-}
-
-header #get-started {
-    background-color: #ff7360;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+    justify-content: center;
+  }
+  
+  .nav-list li {
+    margin: 0 20px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px; 
     transition: background-color 0.3s;
-}
-
-header .get-started:hover {
-    background-color: #e55a40;
-}
-
+  }
+  
+  .nav-list li a:hover {
+    background-color: #575757; 
+  }
+  
+  /* Responsive Design: Make navbar stack on smaller screens */
+  @media screen and (max-width: 768px) {
+    .nav-list {
+      flex-direction: column; /* Stacks the links vertically */
+      align-items: center; /* Centers items in the column */
+    }
+    .nav-list li {
+      margin: 10px 0; 
+    }
+  }
 .main {
     display: flex;
     justify-content: space-between;
@@ -66,8 +62,16 @@ header .get-started:hover {
     padding: 80px 5%;
     color: #fff;
     flex-wrap: wrap;
-    border-color: #6C3483;
+    background-size: 50%;
+    padding: 50px 20px; 
+    margin: 50px ; 
+   background-image: url(https://i.pinimg.com/originals/c7/d3/77/c7d3775330348b7475085814cee1d8f0.jpg);
+   background-size: cover; 
+   background-position: center center;
+   background-repeat: no-repeat;
+   border-radius: 20px;
 }
+
 #main_2 {
     display: flex;
     justify-content: space-between;
@@ -75,6 +79,11 @@ header .get-started:hover {
     padding: 80px 5%;
     color: #fff;
     flex-wrap: wrap;
+    padding: 50px 20px;
+    background-image: url(https://jooinn.com/images/watch-closeup-2.jpg);
+    color: white;
+    margin: 50px;
+    border-radius: 20px;
 }
 
 .content h1 {
@@ -97,26 +106,15 @@ header .get-started:hover {
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
 }
 
-#explore-more {
-    margin-top: 20px;
-    padding: 10px 25px;
-    background-color: transparent;
-    color: #ff7360;
-    border: 1px solid #ff7360;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: color 0.3s, background-color 0.3s;
-}
-
 .watch-image img {
     width: 125%;
     max-width: 1000px;
     height: auto;
     padding-top: 60px;
-    margin:  auto;
     display: block;
     padding-right: 550px;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 .features {
@@ -134,15 +132,19 @@ header .get-started:hover {
     align-items: center;
     margin-bottom: 40px;
     color: #d8260e;
-    padding-left:  200px;
-
+    margin-left:  200px;
+    background-color: #64caf3;
+    border-radius: 7px;
 }
 .feature_ex {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     color: plum;
-    padding-right: 250px;
+    margin-right: 250px;
+    background-color: #64caf3;
+    border-radius: 7px;
+
 }
 
 .feature .icon {
@@ -179,7 +181,8 @@ header .get-started:hover {
     font-size: 50px;
     padding: 20px;
     font-family: 'Georgia', serif;
-    color: #2dc39e;
+    color: #c3582d;
+    text-align: center;
 }
 .footer_content{
     font-size: 1.5em;
@@ -187,21 +190,21 @@ header .get-started:hover {
     line-height: 1.5;
     color: #e7ba5b;
     padding-left: 60px;
-}
-.img2 {
-    width: 100%;
-    max-width: 1000px;
-    text-align: right;
-    height: 430px;
-    vertical-align: middle;
 
+    text-decoration: underline;
+}
+#about_us{
+    background-color: #2dc39e;
+    border-radius: 20px;
+    margin: 50px;
+    
 }
 
 
 /* Main 2 section */
 
 .body_collection {
-    background: linear-gradient(135deg, #f586f5, #6C3483, #A569BD, #b850ec, #f054b4);
+    background: linear-gradient(160deg, #04a38e , #447ec0 , #ec9c51 , #dc8ef8 , #1d1f29);
     color: #fff;
 }
 .item_main_2 img {
@@ -209,12 +212,13 @@ header .get-started:hover {
        max-width: 152px;
        height: 152px;
 }
-.h1_main_2 {
-    text-align: center;
-    padding-left: 600px;
-    font-size: 60px;
-    color: rgb(33, 207, 207);
-    text-decoration: underline;
+    #main_2 h1 {
+        text-align: center;
+        margin-left: 600px;
+        font-size: 60px;
+        color: rgb(33, 207, 207);
+        background-color: #333;
+        border-radius: 20px;
 }
 
 .gallery_main_2 {
@@ -244,6 +248,10 @@ header .get-started:hover {
 .item_main_2:hover {
     transform: scale(1.05);
 }
+.gallery_1{
+    background-color: #c0c0c0;
+    border-radius: 
+}
 
 
 @media (max-width: 768px) {
@@ -257,11 +265,21 @@ header .get-started:hover {
         width: 100%;
     }
 }
-#see_more{
-    color: orange;
-    padding-left: 1600px;
+
+.see_more a {
+    color: rgb(240, 68, 68);
+    text-decoration: none;
+    background-color: rgb(74, 81, 83);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 1600px;
 }
-#see_more_collection {
-    color: red;
-    padding-left: 1600px;
+
+.see_more_collection a {
+    color: rgb(240, 68, 68);
+    text-decoration: none;
+    background-color: rgb(74, 81, 83);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 1600px;    
 }

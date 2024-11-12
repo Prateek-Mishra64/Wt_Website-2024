@@ -7,26 +7,19 @@
         <link rel="stylesheet" href="Test.css">
     </head>
     <body class="body_collection">
-        <div class="whole">
-            <header>
-                <nav>
-                    <div class="hehe">
-                        <ul>
-                            <li id="home"><a href="main.html">🛖 Home</a></li>
-                            <li id="about_button"><a href="#">About</a></li>
-                            <li><a href="Collection.html" target="#blank">Collection</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <button id="get-started">Get Started</button>
-                </nav>
-            </header>
+        <div class="hehe">
+            <nav class="navbar">
+            <ul class="nav-list">
+                <li id="home"><a href="#">🛖 Home</a></li>
+                <li id="about_button"><a href="#">About</a></li>
+                <li><a href="Collection.html" target="#blank">Collection</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+          </nav>        
         </div>
-        <section id="main_2">
-            
+            <section id="main_2">
             <h1 class="h1_main_2">Our Analog Collections</h1>
-            <div class="gallery_main_2">
+            <div class="gallery_main_2">              
                 <div class="item_main_2" onclick="showAlert('Item 1')">
                     <img src="https://thumbs.dreamstime.com/b/analog-wrist-watch-close-up-elegant-ground-86248644.jpg" alt="Item 1">
                     <p>Item 1</p>
@@ -59,8 +52,13 @@
                     <img src="https://m.media-amazon.com/images/I/51oldet9suL._UY445_.jpg" alt="Item 4">
                     <p>Item 8</p>
                 </div>
-                <p id="see_more_collection" onclick="showAlert_2()"><a href="#"><u>See More</u></a></p>
+                </div>
+                <div class="see_more_collection">
+                    <p id="see_more_collection" onclick="showAlert_2()"><a href="#">See More</a></p>
+                     </div>
+                </section>
             </div>
+            <section id="main_2">
             <h1 class="h1_main_2">Our Digital Collections</h1>
             <div class="gallery_main_2">
                 <div class="item_main_2" onclick="showAlert('Item 1')">
@@ -95,8 +93,12 @@
                     <img src="https://i.pinimg.com/736x/bc/41/8f/bc418f6e6a6a1e301a2db1bfb82dcad7.jpg" alt="Item 4">
                     <p>Item 16</p>
                 </div>
-                <p id="see_more_collection" onclick="showAlert_2()"><a href="#"><u>See More</u></a></p>
+                <div class="see_more_collection">
+                    <p id="see_more_collection" onclick="showAlert_2()"><a href="#">See More</a></p>
+                     </div>
             </div>
+            </section>
+        <section id="main_2">
             <h1 class="h1_main_2">Our smart Watches Collections</h1>
             <div class="gallery_main_2">
                 <div class="item_main_2" onclick="showAlert('Item 1')">
@@ -131,10 +133,13 @@
                     <img src="https://th.bing.com/th/id/OIP.iZuvudYrOhdZSW8JLTtJNgHaH8?rs=1&pid=ImgDetMain" alt="Item 4">
                     <p>Item 24</p>
                 </div>
-                <p id="see_more_collection" onclick="showAlert_2()"><a href="#"><u>See More</u></a></p>
-            </div>
-            <h1 class="h1_main_2">Our Luxury  Watches Collections</h1>
-            
+                <div class="see_more_collection">
+                    <p id="see_more_collection" onclick="showAlert_2()"><a href="#">See More</a></p>
+                </div> 
+               </div>
+                </section>
+                <section id="main_2">
+                <h1 class="h1_main_2">Our Luxury  Watches Collections</h1>
             <div class="gallery_main_2">
                 <div class="item_main_2" onclick="showAlert('Item 1')">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71jlXw8LSLL.jpg" alt="Item 1">
@@ -150,25 +155,27 @@
                 </div>
                 <div class="item_main_2" onclick="showAlert('Item 4')">
                     <img src="https://th.bing.com/th/id/OIP.XjqWdgNTvW76t7sDEUPy5AAAAA?rs=1&pid=ImgDetMain" alt="Item 4">
-                    <p>Item 29</p>
+                    <p>Item 28</p>
                 </div>
                 <div class="item_main_2" onclick="showAlert('Item 5')">
                     <img src="https://cdn.shopify.com/s/files/1/0246/4825/3489/products/26_bbbdf391-c018-4b5f-a4b1-fa7fe33b6fac_1024x1024@2x.jpg?v=1580441909" alt="Item 1">
-                    <p>Item 30</p>
+                    <p>Item 29</p>
                 </div>
                 <div class="item_main_2" onclick="showAlert('Item 6')">
                     <img src="https://ae01.alicdn.com/kf/HTB1mKRKJFXXXXXKXFXXq6xXFXXXh/Men-Golden-Stainless-Steel-Band-Automatic-Watches-Fashion-Self-Winding-Analog-Wrist-Watch.jpg" alt="Item 2">
-                    <p>Item 31</p>
+                    <p>Item 30</p>
                 </div>
                 <div class="item_main_2" onclick="showAlert('Item 7')">
                     <img src="https://th.bing.com/th/id/OIP.tiFhZ6EMukg0B6lm2su47gHaLt?w=115&h=180&c=7&r=0&o=5&pid=1.7" alt="Item 3">
-                    <p>Item 32</p>
+                    <p>Item 31</p>
                 </div>
                 <div class="item_main_2" onclick="showAlert('Item 8')">
                     <img src="watch.jpeg" alt="Item 4">
-                    <p>Item 33</p>
+                    <p>Item 32</p>
                 </div>
-                <p id="see_more_collection" onclick="showAlert_2()"><a href="#"><u>See More</u></a></p>
+                <div class="see_more_collection">
+                    <p id="see_more_collection" onclick="showAlert_2()"><a href="#">See More</a></p>
+                 </div>
             </div>
         </section>
         <section id="about_us">

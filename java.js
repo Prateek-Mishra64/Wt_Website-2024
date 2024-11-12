@@ -5,7 +5,7 @@ document.getElementById('about_button').addEventListener('click', function() {
 });
 // to get the website to scroll to home section
 document.getElementById('home').addEventListener('click', function() {
-    const targetSection_2 = document.getElementById('whole');
+    const targetSection_2 = document.getElementById('body');
     targetSection_2.scrollIntoView({ behavior: 'smooth' });
 });
 // to get the website to scroll to home section
